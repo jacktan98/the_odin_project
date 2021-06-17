@@ -1,0 +1,131 @@
+html {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(37, 37, 37);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigation_bar {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+.nav_text {
+    margin-top: 6px;
+}
+
+.nine_dots {
+    display: block;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+  }
+
+.nine_dots:hover {
+    opacity: 0.65;
+}
+
+.profile {
+    display: block;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    }
+
+.profile:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    }
+
+.google_logo {
+    display: block;
+    margin: 8em auto 0.5em auto;
+}
+
+.search {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    padding: 0.5rem 1rem;
+    border: lightgray 1px solid;
+    border-radius: 30px;
+}
+
+.search:hover {
+    border-color: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.google_search {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.search_input {
+    border: none;
+    outline: none;
+    width: 80%;
+    font-size: 1.2rem;
+  }
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: white;
+}
+
+.google_microphone {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.footer {
+    color: rgb(75, 75, 75);
+    background: rgb(235, 235, 235);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_first {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+}
+
+.footer_second {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+}
